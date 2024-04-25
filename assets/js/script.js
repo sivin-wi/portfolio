@@ -19,11 +19,11 @@ form.addEventListener("submit",(e)=>{
         alert("write something within 25 words");
     }else{
         if(confirm("Press the button\nEither ok or cancel")){
+             alert("Form Sent");
             form.submit();
             form[0].value= "";
             form[1].value= "";
             form[2].value= "";
-            alert("Form Sent");
         } 
     }
 })
